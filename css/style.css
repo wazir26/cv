@@ -12,6 +12,7 @@ h1 {
   margin: 50px auto 0px auto;
   font-family: 'Sacramento', cursive;
   color: #66BFBF;
+  text-align: center;
 }
 
 h2 {
@@ -21,6 +22,7 @@ h2 {
   line-height: normal;
   color: #66BFBF;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 h3 {
@@ -33,10 +35,12 @@ p {
 }
 
 hr {
-  border: dotted #EAF6F6 6px;
+
+  border: dotted #E6F0FF 10px; 
   border-bottom: none;
-  width: 4%;
+  width: 5%;
   margin: 100px auto;
+
 }
 
 a {
@@ -90,7 +94,7 @@ a:hover {
   top: 0;
   width: 100%;
   transition: top 0.7s;
-  /* Transition effect when sliding down (and up) */
+
 }
 
 .Top-container {
@@ -102,12 +106,37 @@ a:hover {
 h2 {
   font-family: "Cinzel Decorative", cursive;
 }
+.middle-container
+{
+  width: 100%;
 
+}
 .middle-container p {
-  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400;
   line-height: 1.42857143;
   color: #545454;
+  text-align: left;
+  line-height: 1.5;
+  word-spacing:2px;
+  padding-right: 30px;
+
+  direction: ltr;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  
+}
+
+.middle-container ul li{
+  text-align: left;
+  word-spacing:1px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  line-height: 1.22857143;
+  color: #545454;
+  list-style-type: none;
+  padding: 4px;
+  padding-right: 20px;
 }
 
 .bottom-container {
@@ -117,9 +146,19 @@ h2 {
 }
 
 .profile {
-  width: 50%;
+
+  width: 60%;
+  height: 780px;
   text-align: center;
   margin: 100px auto 100px auto;
+
+  background-color: #E6F0FF;
+  border-radius: 25px;
+
+}
+
+.profile:hover{
+  box-shadow:2px 2px 10px 10px lightgrey ;
 }
 
 .code-img0 {
@@ -128,35 +167,74 @@ h2 {
 }
 
 .skill-row {
-  width: 50%;
+  width: 80%;
   margin: 100px auto 100px auto;
+  text-align: left;
+  background-color: #E6F0FF;
+  height: 280px;
+  border-radius: 25px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+
+}
+
+.skill-row:hover{
+  box-shadow:2px 2px 10px 10px lightgrey ;
+}
+
+.skills h3{
+  padding-top: 15px;
+  font-size: 18px;
+
+}
+
+.intro {
+  word-spacing:2px;
+  direction: ltr;
+  justify-content: left;
   text-align: left;
 }
 
-.code-img1 {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
+#para{
+  margin-top: 0;
+  padding-bottom: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  word-spacing:2px;
+  padding-right: 30px;
+  direction: ltr;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.P_name{
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-left: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+  word-spacing:2px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
-.code-img2 {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
+.code-img1 {
+  width: 20%;
+  height: 280px;
+  float: left;
+  margin-right: 30px;
 }
 
 .pro {
   text-decoration: underline;
 }
 
-.intro {
-  width: fit-content;
-  margin: auto;
-}
+
 
 .contact-message {
   width: 50%;
-  /*  width: fit-content;*/
   margin: 40px auto 60px;
 }
 
@@ -182,6 +260,7 @@ h2 {
   right: 300px;
   top: 40px;
 }
+
 
 .Mountain {
   margin-top: 150px;
