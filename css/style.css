@@ -154,6 +154,10 @@ h2 {
 
   background-color: #E6F0FF;
   border-radius: 25px;
+  
+    overflow-x: hidden;
+  overflow-y: hidden;
+  padding-bottom: 20px;
 
 }
 
@@ -291,4 +295,18 @@ h2 {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+@media only screen and (max-width:600px)
+{
+    .Top-container h1 h2{
+      text-align: center;
+      flex-basis:100% ;
+    }
+    .skill-row .code-img1 h3 .P_name .para .Mountain .btn .headcont .code-img1 .profile
+    {
+      flex-basis:100% ;
+    }
+    .code-img1{
+      object-fit: contain;
+    }
 }
