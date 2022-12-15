@@ -120,7 +120,7 @@ h2 {
   line-height: 1.5;
   word-spacing:2px;
   padding-right: 30px;
-
+/* Need to update in github */ 
   direction: ltr;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -151,11 +151,10 @@ h2 {
   height: 780px;
   text-align: center;
   margin: 100px auto 100px auto;
-
   background-color: #E6F0FF;
   border-radius: 25px;
-  
-    overflow-x: hidden;
+  /* Need to update in github */
+  overflow-x: hidden;
   overflow-y: hidden;
   padding-bottom: 20px;
 
@@ -175,7 +174,7 @@ h2 {
   margin: 100px auto 100px auto;
   text-align: left;
   background-color: #E6F0FF;
-  height: 280px;
+  /* height: 280px; */
   border-radius: 25px;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -211,6 +210,8 @@ h2 {
   direction: ltr;
   overflow-x: hidden;
   overflow-y: hidden;
+  /* text-transform: capitalize; */
+
 }
 .P_name{
   font-size: 16px;
@@ -296,9 +297,15 @@ h2 {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+
+
 @media only screen and (max-width:600px)
 {
     .Top-container h1 h2{
+      text-align: center;
+      flex-basis:100% ;
+    }
+    .btn {
       text-align: center;
       flex-basis:100% ;
     }
